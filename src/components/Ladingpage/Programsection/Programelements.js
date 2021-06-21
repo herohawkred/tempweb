@@ -78,26 +78,30 @@ export const Programoneoftwomobile = styled.div`
 
 export const Programoneofthree = styled.div`
     display:relative;
-    height:auto;
-    width:auto;
+    height:390px;
+    width:555px;
     left:0;
 
 `
 
 export const Programoneofour  = styled.div`
     display:relative;
-    height:auto;
-    width:auto;
+    height:300px;
+    width:300px;
     text-align:right;
-    margin-right:60px;
+    padding-left:50%;
+    padding-top:10%;
 `
 
 export const Programoneoffive = styled.div`
     display:relative;
-    height:auto;
-    width:auto;
+    height:400px;
+    width:400px;
     text-align:center;
     margin-top:155px;
+    display:relative;
+    margin-left:auto;
+    left:0;
 
 `
 
@@ -105,7 +109,6 @@ export const Programtwo = styled.div`
     display:relative;
     height:100%;
     width: 100%;
-    max-width:1440px;
     background-color:;
     margin-top:50px;
     margin:0;
@@ -189,7 +192,7 @@ export const Programtext = styled.h3`
     `
 
 export const Programimgone = styled.img`
-    width:436px;
+    width:100%;
     height:100%;
     text-align:right;
         @media (max-width: 480px) {
@@ -198,19 +201,19 @@ export const Programimgone = styled.img`
 `
 
 export const Programimgtwo = styled.img`
-    width:auto;
-    height:auto;
+width:100%;
+height:100%;
     left:0;
     margin-top:100px;
 `
 
 export const Programimgthree = styled.img`
-    width:auto;
-    height:auto;
+    width:100%;
+    height:100%;
 `
 
 export const Programimgfour = styled.img`
-    width:auto;
-    height:auto;
+width:100%;
+height:100%;
 
 `

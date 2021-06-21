@@ -112,7 +112,8 @@ export const Userimagessmobile = styled.img`
     margin-left: auto;
     margin-right: auto;
     margin-top:122px;
-    width:397px;
+    width:auto;
+    
         .slick-next{
             right:10px;
             z-index: 1000;
@@ -123,7 +124,8 @@ export const Userimagessmobile = styled.img`
             }
 
         @media (max-width: 480px) {
-            margin-left:12px;
+            margin-left:auto;
+            margin-right:auto;
             margin-top:58px;
             
             }

@@ -126,6 +126,7 @@ export const Mobilemockupimg = styled.img`
     @media (max-width: 480px) {
         margin-right:auto;
         margin-left:auto;
+        padding-left:15px;
     };
     `
 

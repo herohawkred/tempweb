@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Linebreaker = styled.div`
     display:relative;
-    height:auto;
+    height:86px;
 
     @media (max-width: 480px) {
         z-index:0;
@@ -17,7 +17,7 @@ export const Secondbreakerimg = styled.img`
     top:0;
     bottom:0;
     text-aling:center;
-    height:66px;
+    height:86px;
     @media (max-width: 480px) {
         height:46px;
     };

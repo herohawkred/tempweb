@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import {Programoneoftwomobile,Programsectorcontainer,Programone,Programtwo,Title,Subtitle,Programtext,Programoneofone,Programoneoftwo,Programoneofthree,Programoneofour,Programoneoffive,Programimgone,Programimgtwo,Programimgthree,Programimgfour} from './Programelements';
-import Programimageone from '../../../images/Landingpage/Programs/fitness program.svg';
-import Programimagetwo from '../../../images/Landingpage/Programs/startingstrength.svg';
-import Programimagethree from '../../../images/Landingpage/Programs/Madcow.svg';
-import Programimagefour from '../../../images/Landingpage/Programs/pullup.svg';
+import Programimageone from '../../../images/Landingpage/Programs/fitness program.png';
+import Programimagetwo from '../../../images/Landingpage/Programs/startingstrength.png';
+import Programimagethree from '../../../images/Landingpage/Programs/Madcow.png';
+import Programimagefour from '../../../images/Landingpage/Programs/pullup.png';
 
 import Programimageonemobile from '../../../images/Landingpage/Programs/fitness program_mobile.jpg';
 import Programimagetwomobile from '../../../images/Landingpage/Programs/startingstrength_mobile.jpg';

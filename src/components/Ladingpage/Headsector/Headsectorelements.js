@@ -40,7 +40,7 @@ export const Linebreakerimgmobile = styled.img`
 export const Headersection = styled.div`
     display:grid;
     grid-template-columns: 1fr 1fr;
-    height:80vh;
+    height:80%;
 
         @media (max-width: 480px) {
             display:flex;
@@ -211,7 +211,7 @@ export const Buttonamobile = styled.a`
 
 export const Headersectionimgdiv = styled.div`
     max-width:100%;
-    height:80vh;
+    height:100%;
     object-fit: cover;
     position: relative;
     display: inline;
@@ -222,10 +222,15 @@ export const Headersectionimgdiv = styled.div`
      };
 `
 
-export const Headerimages = styled.img`
-width: 100%;
-height: 100%;
-object-fit: cover;
+    export const Headerimages = styled.img`
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+
+    @media (max-width: 480px) {
+        width:100%;
+        height:100%;
+     };
 `
 
 export const Maincircle = styled.img`

@@ -3,10 +3,10 @@ import styled from 'styled-components'
 
 export const Backgrounddiv = styled.div`
     position: absolute;
-    top:1873px;
-    height: 4000px;
+    top:1773px;
+    height: 3900px;
     width:100%;
-    z-index:-3;
+    z-index:-4;
     @media (min-width: 1400px) {
         top:2200px;
     }
@@ -24,6 +24,10 @@ export const Backgroundobjectimg = styled.img`
     object-fit: none;
     margin-left:auto;
     margin-right:auto;
+
+    @media (max-width: 1400px) {
+        height: 2400px;
+        object-fit:none;
 
     @media (max-width: 480px) {
         display:none;

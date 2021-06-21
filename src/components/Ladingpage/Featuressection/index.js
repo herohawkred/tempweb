@@ -1,8 +1,11 @@
 import React, { useEffect } from "react";
 import {Featuredivmobile,Mobileinfosectioncontainer,Blankdiv,Mobileinfo,Mobilemockupimg,Title,Phonemockupdivright,Phonemockupdivleft,Mockuptextleft,Mockuptextright, Featuretext,Headline,Mobilemockupimgleft} from './Mobileinfoelements'
-import Featureimage1 from '../../../images/Landingpage/Featureimages/featureimage_1.svg';
-import Featureimage2 from '../../../images/Landingpage/Featureimages/featureimage_2.svg';
-import Featureimage3 from '../../../images/Landingpage/Featureimages/featureimage_3.svg';
+import Featureimage1 from '../../../images/Landingpage/Featureimages/featureimage_1.png';
+import Featureimage2 from '../../../images/Landingpage/Featureimages/featureimage_2.png';
+import Featureimage3 from '../../../images/Landingpage/Featureimages/featureimage_3.png';
+import featureimagemobile1 from '../../../images/Landingpage/Featureimages/featureimagemobile1.png';
+import featureimagemobile2 from '../../../images/Landingpage/Featureimages/featureimagemobile2.png';
+import featureimagemobile3 from '../../../images/Landingpage/Featureimages/featureimagemobile3.png';
 import AOS from "aos";
 import 'aos/dist/aos.css';
 
@@ -83,7 +86,7 @@ export const Featuressection = ({Titleone,Titletwo,Titlethree,Headlineone,Headli
                 <Featuredivmobile >
                     <Title >{Titleone}</Title>
                     <Headline >{Headlineone} </Headline>
-                    <Mobilemockupimg src={Featureimage1} alt="mobilemockupimg" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
+                    <Mobilemockupimg src={featureimagemobile1} alt="mobilemockupimg" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
                     
                         {Featuretextone.map((featuretext , index) =>(
                     <Featuretext key= {index}>
@@ -105,7 +108,7 @@ export const Featuressection = ({Titleone,Titletwo,Titlethree,Headlineone,Headli
                         {headline.headlinetwo_two}
                     </Headline>
                          ))}
-                    <Mobilemockupimg src={Featureimage2} alt="mobilemockupimg" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
+                    <Mobilemockupimg src={featureimagemobile2} alt="mobilemockupimg" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
                     {Featuretexttwo.map((featuretext , index) =>(
                     <Featuretext key= {index}>
                         {featuretext.featuretexttwo_one}<br/>
@@ -122,7 +125,7 @@ export const Featuressection = ({Titleone,Titletwo,Titlethree,Headlineone,Headli
                             {headline.headlinethree_two}
                         </Headline>
                         ))}
-                    <Mobilemockupimg src={Featureimage3} alt="mobilemockupimg" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
+                    <Mobilemockupimg src={featureimagemobile3} alt="mobilemockupimg" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
                     {Featuretextthree.map((featuretext , index) =>(
                     <Featuretext key= {index}>
                         {featuretext.featuretextthree_one}<br/>

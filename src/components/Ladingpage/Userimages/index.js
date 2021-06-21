@@ -1,21 +1,21 @@
 import React from 'react';
 import {Subsubtitlemobile,Userimagessmobile,Title,Subtitle,Subsubtitle,UserimagessectionMobile,Imagediv,Userimagess,Userimagesection,Userimagestextsection,Userimagessection} from './Userimageselements';
-import Image1 from '../../../images/Landingpage/Userimages/userimage_1.jpg';
-import Image2 from '../../../images/Landingpage/Userimages/userimage_2.jpg';
-import Image3 from '../../../images/Landingpage/Userimages/userimage_3.jpg';
-import Image4 from '../../../images/Landingpage/Userimages/userimage_4.jpg';
-import Image5 from '../../../images/Landingpage/Userimages/userimage_5.jpg';
-import Image6 from '../../../images/Landingpage/Userimages/userimage_6.jpg';
-import Image7 from '../../../images/Landingpage/Userimages/userimage_7.jpg';
-import Image8 from '../../../images/Landingpage/Userimages/userimage_8.jpg';
-import ImageMobile1 from '../../../images/Landingpage/Userimages/userimage_mobile_1.jpg';
-import ImageMobile2 from '../../../images/Landingpage/Userimages/userimage_mobile_2.jpg';
-import ImageMobile3 from '../../../images/Landingpage/Userimages/userimage_mobile_3.jpg';
-import ImageMobile4 from '../../../images/Landingpage/Userimages/userimage_mobile_4.jpg';
-import ImageMobile5 from '../../../images/Landingpage/Userimages/userimage_mobile_5.jpg';
-import ImageMobile6 from '../../../images/Landingpage/Userimages/userimage_mobile_6.jpg';
-import ImageMobile7 from '../../../images/Landingpage/Userimages/userimage_mobile_7.jpg';
-import ImageMobile8 from '../../../images/Landingpage/Userimages/userimage_mobile_8.jpg';
+import Image1 from '../../../images/Landingpage/Userimages/userimage_1.png';
+import Image2 from '../../../images/Landingpage/Userimages/userimage_2.png';
+import Image3 from '../../../images/Landingpage/Userimages/userimage_3.png';
+import Image4 from '../../../images/Landingpage/Userimages/userimage_4.png';
+import Image5 from '../../../images/Landingpage/Userimages/userimage_5.png';
+import Image6 from '../../../images/Landingpage/Userimages/userimage_6.png';
+import Image7 from '../../../images/Landingpage/Userimages/userimage_7.png';
+import Image8 from '../../../images/Landingpage/Userimages/userimage_8.png';
+import ImageMobile1 from '../../../images/Landingpage/Userimages/userimage_mobile_1.png';
+import ImageMobile2 from '../../../images/Landingpage/Userimages/userimage_mobile_2.png';
+import ImageMobile3 from '../../../images/Landingpage/Userimages/userimage_mobile_3.png';
+import ImageMobile4 from '../../../images/Landingpage/Userimages/userimage_mobile_4.png';
+import ImageMobile5 from '../../../images/Landingpage/Userimages/userimage_mobile_5.png';
+import ImageMobile6 from '../../../images/Landingpage/Userimages/userimage_mobile_6.png';
+import ImageMobile7 from '../../../images/Landingpage/Userimages/userimage_mobile_7.png';
+import ImageMobile8 from '../../../images/Landingpage/Userimages/userimage_mobile_8.png';
 //import Text from '../../../images/Landingpage/Userimages/userimagetext.svg';
 import Slider from "react-slick";
 
@@ -61,17 +61,20 @@ const Userimages = ({index,UserimageTitle,UserimageSubtitle,UserimageDescription
         autoplay:true,
         autoplaySpeed:500,
         variableWidth: true,
+        arrows:false,
 
         responsive: [
             {
                 breakpoint: 480,
                 settings: {
-                    infinite:true,
-                    slidesToShow:1,
-                    slidesToScroll:1,
+                    className: "slider variable-width",
+                    infinite: true,
+                    slidesToShow: 1,
+                    speed:400,
+                    slidesToScroll: 1,
+                    autoplaySpeed:1500,
                     autoplay:true,
-                    speed: 2000,
-                    autoplaySpeed: 1000,
+                    variableWidth: true,
                     arrows:false
                     
                 },
