@@ -34,8 +34,8 @@ export const Footer = ({Supportexts,Ruletexts,Ruletextstwo}) => {
                             </Supportextdiv>
                             <Ruletextdiv>
                                 <Supporttext >
-                                <a href={'http://google.com'} style={{ color: 'black' } }>{Ruletexts}</a>&ensp;&ensp;
-                                <a href={'http://google.com'} style={{ color: 'black' } }>{Ruletextstwo}</a>
+                                <a href={'https://www.notion.so/bunnit/b741d24acd03456b8a1eeb19823413e4'} style={{ color: 'black' } }>{Ruletexts}</a>&ensp;&ensp;
+                                <a href={'https://www.notion.so/bunnit/e01e7dacdfa7466895775171ebb3fb90'} style={{ color: 'black' } }>{Ruletextstwo}</a>
                                 </Supporttext>
                                 <Supporttexttwo >
                                 Copyright        ⓒ 기록이 몸을 만든다. 번핏!
@@ -70,8 +70,8 @@ export const Footer = ({Supportexts,Ruletexts,Ruletextstwo}) => {
                         <Ruleandlogomobile>
                                 <Ruletextdivmobile>
                                     <Supporttextmobileone>
-                                    <a href={'http://google.com'} style={{ color: '#F1E8DF' }}>{Ruletexts}</a>&ensp;&ensp;
-                                    <a href={'http://google.com'} style={{ color: '#F1E8DF' }}>{Ruletextstwo}</a>
+                                    <a href={'https://www.notion.so/bunnit/b741d24acd03456b8a1eeb19823413e4'} style={{ color: '#F1E8DF' }}>{Ruletexts}</a>&ensp;&ensp;
+                                    <a href={'https://www.notion.so/bunnit/e01e7dacdfa7466895775171ebb3fb90'} style={{ color: '#F1E8DF' }}>{Ruletextstwo}</a>
                                     </Supporttextmobileone>
                                     <Supporttextmobiletwo>
                                     Copyright        ⓒ 기록이 몸을 만든다. 번핏
