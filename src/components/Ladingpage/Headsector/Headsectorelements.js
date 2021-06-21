@@ -40,7 +40,7 @@ export const Linebreakerimgmobile = styled.img`
 export const Headersection = styled.div`
     display:grid;
     grid-template-columns: 1fr 1fr;
-    height:100%;
+    height:80vh;
 
         @media (max-width: 480px) {
             display:flex;
@@ -126,7 +126,6 @@ font-style: normal;
 `
 export const SubSubTitle = styled.h3`   
         padding-top:52px;
-        font-family: NotoSansKR;
         font-size: 17px;
         font-weight: bold;
         font-stretch: normal;
@@ -211,7 +210,7 @@ export const Buttonamobile = styled.a`
 
 export const Headersectionimgdiv = styled.div`
     max-width:100%;
-    height:100vh;
+    height:80vh;
     object-fit: cover;
     position: relative;
     display: inline;

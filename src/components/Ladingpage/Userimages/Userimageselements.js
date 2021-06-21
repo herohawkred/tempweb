@@ -153,7 +153,6 @@ export const Imagediv = styled.div`
 
 
 export const Title = styled.h1`
-    font-family: Apple SD Gothic Neo;
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
@@ -174,7 +173,6 @@ export const Title = styled.h1`
 
 `
 export const Subtitle = styled.h2`
-    font-family: Apple SD Gothic Neo;
     font-style: normal;
     font-weight: 800;
     font-size: 46px;
@@ -195,7 +193,6 @@ export const Subtitle = styled.h2`
 `
 
 export const Subsubtitle = styled.h3`
-    font-family: Apple SD Gothic Neo;
     font-style: normal;
     font-weight: normal;
     font-size: 17px;

@@ -103,7 +103,6 @@ export const Contentdiv = styled.div`
     max-width:1440px;
     justify-content: center;
 
-    font-family: Gothic A1;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -117,7 +116,6 @@ export const Contentdiv = styled.div`
 
       @media (max-width: 480px) {
          width:100%;
-         font-family: Gothic A1;
          font-style: normal;
          font-weight: 500;
          font-size: 10px;
@@ -150,7 +148,6 @@ export const Contentdiv = styled.div`
 
    @media (max-width: 480px) {
       width:100%;
-      font-family: Gothic A1;
       font-style: normal;
       font-weight: 500;
       font-size: 10px;
@@ -167,7 +164,6 @@ export const Contentdiv = styled.div`
     flex-direction: column;
     width:100%;
     max-width:1440px;
-    font-family: Gothic A1;
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
@@ -194,7 +190,6 @@ export const Contentdiv = styled.div`
     height: 500px;
     width:100%;
     max-width:1440px;
-    font-family: Gothic A1;
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
@@ -249,7 +244,6 @@ export const Supporttextmobilewrap = styled.div`
 
 `
 export const Supporttext = styled.h4`
-   font-family: Gothic A1;
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
@@ -260,7 +254,6 @@ export const Supporttext = styled.h4`
 
    color: #4F5665;
       @media (max-width: 480px) {
-         font-family: Gothic A1;
          font-style: normal;
          font-weight: 500;
          font-size: 10px;
@@ -272,7 +265,6 @@ export const Supporttext = styled.h4`
     `
 
     export const Supporttextmobileone = styled.h4`
-    font-family: Gothic A1;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -283,7 +275,6 @@ export const Supporttext = styled.h4`
  
     color: #4F5665;
        @media (max-width: 480px) {
-          font-family: Gothic A1;
           font-style: normal;
           font-weight: 500;
           font-size: 10px;
@@ -294,7 +285,6 @@ export const Supporttext = styled.h4`
     };
      `
      export const Supporttextmobiletwo = styled.h4`
-     font-family: Gothic A1;
      font-style: normal;
      font-weight: 500;
      font-size: 16px;
@@ -305,7 +295,6 @@ export const Supporttext = styled.h4`
   
      color: #4F5665;
         @media (max-width: 480px) {
-           font-family: Gothic A1;
            font-style: normal;
            font-weight: 500;
            font-size: 10px;
