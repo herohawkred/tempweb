@@ -45,6 +45,7 @@ export const Headersection = styled.div`
         @media (max-width: 480px) {
             display:flex;
             flex-direction: column-reverse;
+            height:100%;
 
         }
 
