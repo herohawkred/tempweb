@@ -44,6 +44,22 @@ export const Programoneofone = styled.div`
     }
     
 `
+
+export const Programtwo = styled.div`
+    display:relative;
+    height:100%;
+    width: 100%;
+    background-color:;
+    margin-top:50px;
+    margin:0;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    @media (max-width: 480px) {
+        display:none;
+    }
+
+`
+
 export const Programoneoftwo = styled.div`
     display:relative;
     height:auto;
@@ -78,7 +94,7 @@ export const Programoneoftwomobile = styled.div`
 
 export const Programoneofthree = styled.div`
     display:relative;
-    height:390px;
+    height:420px;
     width:555px;
     left:0;
 
@@ -86,11 +102,9 @@ export const Programoneofthree = styled.div`
 
 export const Programoneofour  = styled.div`
     display:relative;
-    height:300px;
+    height:280px;
     width:300px;
     text-align:right;
-    padding-left:50%;
-    padding-top:10%;
 `
 
 export const Programoneoffive = styled.div`
@@ -101,24 +115,11 @@ export const Programoneoffive = styled.div`
     margin-top:155px;
     display:relative;
     margin-left:auto;
-    left:0;
+    right:0;
 
 `
 
-export const Programtwo = styled.div`
-    display:relative;
-    height:100%;
-    width: 100%;
-    background-color:;
-    margin-top:50px;
-    margin:0;
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr;
-    @media (max-width: 480px) {
-        display:none;
-    }
 
-`
 export const Programtwoofone = styled.div`
     display:relative;
 `
@@ -210,6 +211,8 @@ height:100%;
 export const Programimgthree = styled.img`
     width:100%;
     height:100%;
+    margin-left:60%;
+    margin-top:10%;
 `
 
 export const Programimgfour = styled.img`

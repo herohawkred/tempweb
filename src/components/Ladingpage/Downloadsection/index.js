@@ -1,15 +1,23 @@
 import React from "react";
-import {Downloadsectiondiv,Downloadtextdiv,Downalodbannerdiv,Title,Subtitle,Appstoreimg,Googleplayimg,Appstorediv,Googlestorediv} from './Downloadelements'
+import {Titlemobile,Downloadsectiondiv,Downloadtextdiv,Downalodbannerdiv,Title,Subtitle,Appstoreimg,Googleplayimg,Appstorediv,Googlestorediv} from './Downloadelements'
 import Appstorebanner from '../../../images/Landingpage/Appstorebanner.svg';
 import Googleplaybanner from '../../../images/Landingpage/Googleplaybanner.svg';
 
-export const Downloadsection = ({DownloadTitle,DownloadSubtitle}) => {
+export const Downloadsection = ({DownloadTitle_mobile,DownloadTitle,DownloadSubtitle}) => {
 
 
     return (
         <Downloadsectiondiv key="downloadsection">
             <Downloadtextdiv key="texdiv">
                 <Title key="title" >{DownloadTitle}</Title>
+
+                {DownloadTitle_mobile.map((download , index) =>(
+                <Titlemobile key="subtitle">
+                    {download.one}<br/>
+                    {download.two}
+                </Titlemobile>
+
+))}
 
                 {DownloadSubtitle.map((download , index) =>(
                 <Subtitle key="subtitle">

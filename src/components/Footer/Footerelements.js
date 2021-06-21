@@ -134,7 +134,6 @@ export const Contentdiv = styled.div`
  max-width:1440px;
  justify-content: center;
 
- font-family: Gothic A1;
  font-style: normal;
  font-weight: 500;
  font-size: 16px;
@@ -249,7 +248,7 @@ export const Supporttext = styled.h4`
    font-size: 16px;
    line-height: 170%;
    /* or 27px */
-
+   margin-bottom:0;
    letter-spacing: -0.02em;
 
    color: #4F5665;
@@ -263,6 +262,16 @@ export const Supporttext = styled.h4`
          color: #F1E8DF;
    };
     `
+   export const Supporttexttwo = styled.h4`
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 170%;
+   /* or 27px */
+   letter-spacing: -0.02em;
+   color: #4F5665;
+   margin-top:0;
+   `
 
     export const Supporttextmobileone = styled.h4`
     font-style: normal;
@@ -309,7 +318,6 @@ export const Supporttext = styled.h4`
       export const Stext = styled.h3`
       width:100%;
       justify-content: center;
-      font-family: Gothic A1;
       font-style: normal;
       font-weight: 500;
       font-size: 16px;

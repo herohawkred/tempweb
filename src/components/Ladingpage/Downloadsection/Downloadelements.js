@@ -75,15 +75,23 @@ export const Title = styled.h1`
     color: #0B132A;
 
     @media (max-width: 480px) {
-        font-size: 32px;
-        font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.56;
-        letter-spacing: normal;
-        text-align: center;
-        color: var(--black);
+display:none;
     };
+`
+export const Titlemobile = styled.h1`
+display:none;
+@media (max-width: 480px) {
+    display:block;
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black);
+};
+
 `
 
 export const Subtitle = styled.h2`

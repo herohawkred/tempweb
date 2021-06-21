@@ -56,6 +56,7 @@ export const Headersectiontextdiv = styled.div`
     width:100%;
     height:auto;
     padding-top:20%;
+    padding-bottom:20%;
 
         @media (max-width: 480px) {
             margin-bottom:80px;
@@ -238,7 +239,13 @@ export const Maincircle = styled.img`
     height:auto;
     position: absolute;
     bottom: 0;
+    padding-bottom: 10px;
     right: 0;
+    padding-bottom: -webkit- 20%;
+    ::i-block-chrome,.myClass {
+        padding-bottom: 20%;
+       }
+       }
 
     @media (max-width: 480px) {
        width:90px;
