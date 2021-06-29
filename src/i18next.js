@@ -24,7 +24,7 @@ i18n
   .init({
     fallbackLng: 'en',
     detection:{
-        order: [ 'querystring', 'cookie', 'localStorage', 'sessionStorage', 'navigator', 'htmlTag', 'path', 'subdomain']
+        order: ['localStorage', 'sessionStorage', 'navigator', 'htmlTag', 'path', 'subdomain']
     },
     debug: true,
     whitelist: Languagess,
