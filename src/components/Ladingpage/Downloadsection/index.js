@@ -2,27 +2,28 @@ import React from "react";
 import {Titlemobile,Downloadsectiondiv,Downloadtextdiv,Downalodbannerdiv,Title,Subtitle,Appstoreimg,Googleplayimg,Appstorediv,Googlestorediv} from './Downloadelements'
 import Appstorebanner from '../../../images/Landingpage/Appstorebanner.svg';
 import Googleplaybanner from '../../../images/Landingpage/Googleplaybanner.svg';
+import { useTranslation } from 'react-i18next';
 
 export const Downloadsection = ({DownloadTitle_mobile,DownloadTitle,DownloadSubtitle}) => {
-
+    const { t, i18n } = useTranslation();
 
     return (
         <Downloadsectiondiv key="downloadsection">
             <Downloadtextdiv key="texdiv">
-                <Title key="title" >{DownloadTitle}</Title>
+                <Title>{t('Downloadsection.downloadTitle')}<br/></Title>
 
                 {DownloadTitle_mobile.map((download , index) =>(
                 <Titlemobile key="subtitle">
-                    {download.one}<br/>
-                    {download.two}
+                    {t('Downloadsection.one')}<br/>
+                    {t('Downloadsection.two')}
                 </Titlemobile>
 
 ))}
 
                 {DownloadSubtitle.map((download , index) =>(
                 <Subtitle key="subtitle">
-                    {download.mail}<br/>
-                    {download.start}
+                    {t('Downloadsection.mail')}<br/>
+                    {t('Downloadsection.start')}
                 </Subtitle>
 
 ))}

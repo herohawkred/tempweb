@@ -8,6 +8,7 @@ import featureimagemobile2 from '../../../images/Landingpage/Featureimages/featu
 import featureimagemobile3 from '../../../images/Landingpage/Featureimages/featureimagemobile3.png';
 import AOS from "aos";
 import 'aos/dist/aos.css';
+import { useTranslation } from 'react-i18next';
 
 export const Featuressection = ({Titleone,Titletwo,Titlethree,Headlineone,Headlinetwo,Headlinethree,Featuretextone,Featuretexttwo,Featuretextthree,index}) => {
     useEffect(() => {
@@ -15,66 +16,74 @@ export const Featuressection = ({Titleone,Titletwo,Titlethree,Headlineone,Headli
           duration : 2000,
         });
       }, []);
-    
+const { t, i18n } = useTranslation();
+
+var image1;
+if (document.documentElement.lang === 'ko'){
+    image1 = Featureimage1
+}else{
+    image1 = Featureimage2
+};
+
     return (
         <Mobileinfosectioncontainer >
             <Mobileinfo >
             <Blankdiv></Blankdiv><Blankdiv></Blankdiv>
                 <Mockuptextleft >
-                    <Title >{Titleone}</Title> 
-                    <Headline >{Headlineone} </Headline>
+                    <Title > {t('Featuresection.titleone')}</Title> 
+                    <Headline >{t('Featuresection.headlineone')} </Headline>
                     
                         {Featuretextone.map((featuretext , index) =>(
                     <Featuretext key= {index}>
-                        {featuretext.featuretextone_one}<br/>
-                        {featuretext.featuretextone_two}<br/>
-                        {featuretext.featuretextone_three}<br/>
-                        {featuretext.featuretextone_four}
+                        {t('Featuresection.featuretextone_one')}<br/>
+                        {t('Featuresection.featuretextone_two')}<br/>
+                        {t('Featuresection.featuretextone_three')}<br/>
+                        {t('Featuresection.featuretextone_four')}
                     </Featuretext>
                          ))}
 
                 </Mockuptextleft>
                 <Phonemockupdivright >
-                    <Mobilemockupimg src={Featureimage1} alt="mobilemockupimg" data-aos="fade-left" data-aos-duration="2000"/>
+                    <Mobilemockupimg src={image1} alt="mobilemockupimg" data-aos="fade-left" data-aos-duration="2000"/>
                 </Phonemockupdivright>
 {/*나누기*/}
                 <Phonemockupdivleft >
                     <Mobilemockupimgleft src={Featureimage2} alt="mobilemockupimg" data-aos="fade-right"/>
                 </Phonemockupdivleft>
                 <Mockuptextright >
-                    <Title >{Titletwo}</Title>
+                    <Title >{t('Featuresection.titletwo')}</Title>
 
                     {Headlinetwo.map((headline , index) =>(
                     <Headline key= {index}>
-                        {headline.headlinetwo_one}<br/>
-                        {headline.headlinetwo_two}
+                        {t('Featuresection.headlinetwo_one')} <br/>
+                        {t('Featuresection.headlinetwo_two')}
                     </Headline>
                          ))}
 
                       {Featuretexttwo.map((featuretext , index) =>(
                     <Featuretext key= {index}>
-                        {featuretext.featuretexttwo_one}<br/>
-                        {featuretext.featuretexttwo_two}<br/>
-                        {featuretext.featuretexttwo_three}<br/>
+                        {t('Featuresection.featuretexttwo_one')}<br/>
+                        {t('Featuresection.featuretexttwo_two')}<br/>
+                        {t('Featuresection.featuretexttwo_three')}<br/>
                     </Featuretext>
                          ))}
                 </Mockuptextright>
 {/*나누기*/}
                 <Mockuptextleft >
-                    <Title >{Titlethree}</Title>
+                    <Title >{t('Featuresection.titlethree')}</Title>
 
                     {Headlinethree.map((headline , index) =>(
                     <Headline key= {index}>
-                        {headline.headlinethree_one}<br/>
-                        {headline.headlinethree_two}
+                         {t('Featuresection.headlinethree_one')}<br/>
+                         {t('Featuresection.headlinethree_two')}
                     </Headline>
                      ))}
 
                     {Featuretextthree.map((featuretext , index) =>(
                     <Featuretext key= {index}>
-                        {featuretext.featuretextthree_one}<br/>
-                        {featuretext.featuretextthree_two}<br/>
-                        {featuretext.featuretextthree_three}
+                        {t('Featuresection.featuretextthree_one')}<br/>
+                        {t('Featuresection.featuretextthree_two')}<br/>
+                        {t('Featuresection.featuretextthree_three')}
                     </Featuretext>
                          ))}
                 </Mockuptextleft>

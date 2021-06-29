@@ -1,8 +1,8 @@
 export const Programsectiondata = {
-    Titleone:[
+    Programtitleone:[
         "프로그램"
     ],
-    Headlineone:[
+    Programheadlineone:[
         {
         diverse:"다양한",
         workoutprogram:"운동 프로그램!"

@@ -225,7 +225,7 @@ export const Headersectionimgdiv = styled.div`
 
     export const Headerimages = styled.img`
     width: 100%;
-    height: 750px;
+    height: 100%;
     object-fit: cover;
 
     @media (max-width: 480px) {

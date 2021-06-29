@@ -7,8 +7,8 @@ import Maincircleimage from '../../../images/Landingpage/Headerimages/main_circl
 import BunnFitlogo from '../../../images/Landingpage/Headerimages/BunnFit_logo_white.png'
 
 import Blacklogo from '../../../images/Landingpage/logo_black.svg'
-
-
+import { useTranslation } from 'react-i18next';
+import { withTranslation } from 'react-i18next';
 
 
 
@@ -16,6 +16,7 @@ import Blacklogo from '../../../images/Landingpage/logo_black.svg'
 
 export const Headsector = ({Titlej,Subtext,Buttontext,Subofsubtext},props) => {
 */}
+
 class Headsector extends React.Component {
 
   
@@ -30,18 +31,6 @@ class Headsector extends React.Component {
         selectedImage: Headerimageone,
       };
 
-        this.data = {
-            Titlej:[
-                "기록이 몸을 만든다. 번핏"
-            ],
-            Subtext:[{
-              subtext_one:"좋은 기록이 좋은 근육을 만든다.",
-              subtext_two:"운동일지는 이제 번핏으로!"
-            }
-            ],
-            Subofsubtext:["이제 제대로 근육 만들러 가기"],
-            Buttontext:["다운받으러가기"]
-        }
 
 
       
@@ -72,25 +61,28 @@ class Headsector extends React.Component {
         });
       }, 3000);
     }
+
+
   render() {
+    const { t } = this.props;
     return (
         <Container>
             <Headersection>
                 <Headersectiontextdiv>
                         <Logoimages src ={Blacklogo}/>
-                        <Title>{this.data.Titlej}</Title>
-                        {this.data.Subtext.map((subtext , index) =>(
-                    <SubTitle key= {index}>
-                        {subtext.subtext_one}<br/>
-                        {subtext.subtext_two}
+                        <Title>{t('Headsectordata.titlej')}</Title>
+                 
+                    <SubTitle >
+                        {t('Headsectordata.subtext_one')}<br/>
+                        {t('Headsectordata.subtext_two')}
                     </SubTitle>
-                         ))}
-                        <SubSubTitle>{this.data.Subofsubtext}</SubSubTitle>
+
+                        <SubSubTitle>{t('Headsectordata.subofsubtext')}</SubSubTitle>
                         <Buttona href="https://bunn.fit" target="_blank">
-                          <Button>앱 다운로드</Button>
+                          <Button>{t('Headsectordata.buttontext')}</Button>
                         </Buttona>
                         <Buttonamobile href="http://onelink.to/c4c5ur" target="_blank">
-                          <Button>앱 다운로드</Button>
+                          <Button>{t('Headsectordata.buttontext')}</Button>
                         </Buttonamobile>
 
                 </Headersectiontextdiv>
@@ -107,4 +99,4 @@ class Headsector extends React.Component {
 }
 }
 
-export default Headsector;
+export default  withTranslation() (Headsector);

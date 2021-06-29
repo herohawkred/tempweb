@@ -18,7 +18,7 @@ import ImageMobile7 from '../../../images/Landingpage/Userimages/userimage_mobil
 import ImageMobile8 from '../../../images/Landingpage/Userimages/userimage_mobile_8.png';
 //import Text from '../../../images/Landingpage/Userimages/userimagetext.svg';
 import Slider from "react-slick";
-
+import { useTranslation } from 'react-i18next';
 {/*나누기*/}
 {/*
 export const Userimages = ({UserimageTitle,UserimageSubtitle,UserimageDescription}) => {
@@ -82,32 +82,32 @@ const Userimages = ({index,UserimageTitle,UserimageSubtitle,UserimageDescription
         ],
     };
 
-
+    const { t, i18n } = useTranslation();
 return (
         
 
     <Userimagesection>
         <Userimagestextsection >
-            <Title>{UserimageTitle}</Title>
+            <Title>{t('Userimages.userimageTitle')}</Title>
                 {UserimageSubtitle.map((userimagesub , index) =>(
             <Subtitle key= {index}>
-                {userimagesub.yourrecord}<br/>
-                {userimagesub.shareit}
+                {t('Userimages.yourrecord')}<br/>
+                {t('Userimages.shareit')}
             </Subtitle>
                     ))}
 
                 {UserimageDescription.map((userimageDescription , index) =>(
             <Subsubtitle key= {index}>
-                {userimageDescription.together}<br/>
-                {userimageDescription.share}
+                 {t('Userimages.together')}<br/>
+                 {t('Userimages.share')}
             </Subsubtitle>
                     ))}
 
                 {UserimageDescription.map((userimageDescription , index) =>(
             <Subsubtitlemobile key= {index}>
-                {userimageDescription.mobile1}<br/>
-                {userimageDescription.mobile2}<br/>
-                {userimageDescription.mobile3}<br/>
+                 {t('Userimages.mobile1')}<br/>
+                 {t('Userimages.mobile2')}<br/>
+                 {t('Userimages.mobile3')}<br/>
             </Subsubtitlemobile>
                     ))}
 

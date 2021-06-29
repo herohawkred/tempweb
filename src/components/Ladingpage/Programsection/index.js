@@ -9,7 +9,7 @@ import Programimageonemobile from '../../../images/Landingpage/Programs/fitness 
 import Programimagetwomobile from '../../../images/Landingpage/Programs/startingstrength_mobile.jpg';
 import Programimagethreemobile from '../../../images/Landingpage/Programs/Madcow_mobile.jpg';
 import Programimagefourmobile from '../../../images/Landingpage/Programs/pullup_mobile.jpg';
-
+import { useTranslation } from 'react-i18next';
 
 
 import AOS from "aos";
@@ -18,7 +18,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
-export const Programsector = ({Titleone, Headlineone, Textinfo }) => {
+export const Programsector = ({Programtitleone, Programheadlineone, Textinfo }) => {
     useEffect(() => {
         AOS.init({
           duration : 1000
@@ -36,25 +36,27 @@ export const Programsector = ({Titleone, Headlineone, Textinfo }) => {
         arrows:false
 
     };
+
+    const { t, i18n } = useTranslation();
     return (
         <Programsectorcontainer>
             <Programone>
                 <Programoneofone>
-                    <Title>{Titleone}</Title>
+                    <Title>{t('Programsectiondata.programtitleone')}</Title>
 
-                        {Headlineone.map((headline , index) =>(
+                        {Programheadlineone.map((headline , index) =>(
                     <Subtitle key= {index}>
-                        {headline.diverse}<br/>
-                        {headline.workoutprogram}
+                        {t('Programsectiondata.diverse')}<br/>
+                        {t('Programsectiondata.workoutprogram')}
                     </Subtitle>
                          ))}
 
                         {Textinfo.map((textinfo , index) =>(
                     <Programtext key ={index}>
-                    {textinfo.mobileone}<br/>
-                    {textinfo.mobiletwo}<br/>
-                    {textinfo.mobilethree}<br/>
-                    {textinfo.mobilefour}
+                    {t('Programsectiondata.mobileone')}<br/>
+                    {t('Programsectiondata.mobiletwo')}<br/>
+                    {t('Programsectiondata.mobilethree')}<br/>
+                    {t('Programsectiondata.mobilefour')}
                     </Programtext>
                         ))}
 

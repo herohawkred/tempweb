@@ -128,6 +128,10 @@ export const Mobilemockupimg = styled.img`
         margin-left:auto;
         padding-left:15px;
     };
+
+    html:lang(ko){
+        maring-right:100px;
+        }
     `
 
 export const Mobilemockupimgleft = styled.img`

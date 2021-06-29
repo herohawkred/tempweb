@@ -16,8 +16,11 @@ import {Userimagesdata} from '../../components/Ladingpage/Userimages/Data';
 import {Downloadsectiondata} from '../../components/Ladingpage/Downloadsection/Data';
 import Backgroundcircle from '../../components/Ladingpage/Backgroundcircle';
 import Fontstyles from '../../fontStyles';
+import { useTranslation } from 'react-i18next';
 
 const Home = () => {
+
+    const { t, i18n } = useTranslation();
     return (
         <Fontstyles/>,
         <BrowserRouter>

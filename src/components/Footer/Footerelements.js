@@ -261,6 +261,10 @@ export const Supporttext = styled.h4`
          letter-spacing: -0.02em;
          color: #F1E8DF;
    };
+
+   lang(en) {
+      font-size : 50px;
+   }
     `
    export const Supporttexttwo = styled.h4`
    font-style: normal;
@@ -292,6 +296,8 @@ export const Supporttext = styled.h4`
           letter-spacing: -0.02em;
           color: #F1E8DF;
     };
+
+
      `
      export const Supporttextmobiletwo = styled.h4`
      font-style: normal;

@@ -1,0 +1,75 @@
+{
+    "Supportexts":{
+           "customercenter" : "고객고객고객",
+           "email":"이메일: cs@bunnit.kr",
+           "tel":"Tel: 070-4740-0004",
+           "companyname":"주식회사 버닛",
+           "companynumber":"사업자 등록번호:788-81-01243",
+           "owners":"대표:정학균,LEE PAUL",
+           "sellnumber":"통신판매업 신고번호: 2019-서울구로-2103",
+           "address":"주소:인천광역시 연수구 갯벌로 12,414호",
+           "linetwo":"(송도동, 미추홀타워 별관B동)",
+           "ruletexts":"이용약관", 
+           "ruletextstwo":"개인정보처리방침",
+           "companyslogan":"Copyright ⓒ 기록이 몸을 만든다. 번핏!"
+       },
+
+    "Downloadsection":{
+           "downloadTitle":"이제 나도 매일 운동기록!",
+           "mail":"매일 쌓이는 내 성장의 기록",
+           "start":"바로 시작하세요",
+           "one":"이제 나도",
+           "two":"매일 운동기록!"
+       },
+    "Featuresection":{
+        "titleone":"기록",
+        "titletwo":"타이머",
+        "titlethree":"유튜브",
+        "headlineone":"간편한 운동일지",
+        "headlinetwo_one":"운동의 효율을",
+        "headlinetwo_two":"높이는 타이머",
+        "headlinethree_one":"집에서도",
+        "headlinethree_two":"유튜브로 운동!",
+    
+        "featuretextone_one":"운동일지를 시작하세요",
+        "featuretextone_two":"한두번의 클릭으로 쉽게 만드는 운동일지",
+        "featuretextone_three":"한번 만들어두면 복사, 붙여널기로 체계적인",
+        "featuretextone_four":"운동일지를 만들 수 있어요",
+        "featuretextone_mobilethree":"한번 만들어두면 복사, 붙여널기로",
+        "featuretextone_mobilefour":"체계적인 운동일지를 만들 수 있어요",
+        "featuretexttwo_one":"오래한다고 잘 하고 있는게 아니죠",
+        "featuretexttwo_two":"효율적인 운동을 휴식타이머와 운동타이머로",
+        "featuretexttwo_three":"스마트하게 관리하세요",
+        "featuretexttwo_twomobile":"효율적인 운동을 휴식타이머와",
+        "featuretexttwo_threemobile":"운동 타이머로 스마트하게 관리하세요",
+        "featuretextthree_one":"오늘은 집에서 홈트레이닝 인가요?",
+        "featuretextthree_two":"유튜브에서 내가 원하는 홈 트레이닝 운동을",
+        "featuretextthree_three":"골라 함께 따라하고 기록하세요!"
+    
+    },
+
+    "Headsectordata":{
+
+        "titlej":"기록이 몸을 만든다. 번핏",
+        "subtext_one":"좋은 기록이 좋은 근육을 만든다.",
+        "subtext_two":"운동일지는 이제 번핏으로!",
+        "subofsubtext":"이제 제대로 근육 만들러 가기",
+        "buttontext":"다운받으러가기"
+
+    },
+
+    "Programsectiondata":{
+
+        "programtitleone":"프로그램",
+        "diverse":"다양한",
+        "workoutprogram":"운동 프로그램!",
+        "provide": "번핏은 다양한 운동 프로그램을 제공합니다.", 
+        "create":"당신의 몸 상태에 맞춰 효율적인 운동일지를 만들어 드릴게요!",
+        "mobileone":"어떤 루틴과 프로그램이 좋을지",
+        "mobiletwo":"시간낭비 하지 마세요",
+        "mobilethree":"번핏이 당신의 몸 상태에 맞춰 프로그램 기반으로",
+        "mobilefour":"효율적인 운동일지를 만들어 드릴게요!"
+    }
+    
+    
+   }
