@@ -93,16 +93,16 @@ if (document.documentElement.lang === 'ko'){
 
 {/*모바일버전   */}
                 <Featuredivmobile >
-                    <Title >{Titleone}</Title>
-                    <Headline >{Headlineone} </Headline>
+                    <Title >{t('Featuresection.titleone')}</Title>
+                    <Headline >{t('Featuresection.headlineone')} </Headline>
                     <Mobilemockupimg src={featureimagemobile1} alt="mobilemockupimg" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
                     
                         {Featuretextone.map((featuretext , index) =>(
                     <Featuretext key= {index}>
-                        {featuretext.featuretextone_one}<br/>
-                        {featuretext.featuretextone_two}<br/>
-                        {featuretext.featuretextone_mobilethree}<br/>
-                        {featuretext.featuretextone_mobilefour}
+                        {t('Featuresection.featuretextone_one')}<br/>
+                        {t('Featuresection.featuretextone_two')}<br/>
+                        {t('Featuresection.featuretextone_mobilethree')}<br/>
+                        {t('Featuresection.featuretextone_mobilefour')}
                     </Featuretext>
                          ))}
                     
@@ -110,36 +110,36 @@ if (document.documentElement.lang === 'ko'){
                 </Featuredivmobile>
 
                 <Featuredivmobile >
-                    <Title >{Titletwo}</Title>
-                    {Headlinetwo.map((headline , index) =>(
+                    <Title >{t('Featuresection.titletwo')}</Title>
+                    {Headlinetwo.map(( index) =>(
                     <Headline key= {index}>
-                        {headline.headlinetwo_one}<br/>
-                        {headline.headlinetwo_two}
+                         {t('Featuresection.headlinetwo_one')}<br/>
+                         {t('Featuresection.headlinetwo_two')}
                     </Headline>
                          ))}
                     <Mobilemockupimg src={featureimagemobile2} alt="mobilemockupimg" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
-                    {Featuretexttwo.map((featuretext , index) =>(
+                    {Featuretexttwo.map((index) =>(
                     <Featuretext key= {index}>
-                        {featuretext.featuretexttwo_one}<br/>
-                        {featuretext.featuretexttwo_twomobile}<br/>
-                        {featuretext.featuretexttwo_threemobile}
+                        {t('Featuresection.featuretexttwo_one')}<br/>
+                        {t('Featuresection.featuretexttwo_twomobile')}<br/>
+                        {t('Featuresection.featuretexttwo_threemobile')}
                     </Featuretext>
                          ))}
                 </Featuredivmobile>
                 <Featuredivmobile >
-                    <Title >{Titlethree}</Title>
+                    <Title >{t('Featuresection.titlethree')}</Title>
                         {Headlinethree.map((headline , index) =>(
                         <Headline key= {index}>
-                            {headline.headlinethree_one}<br/>
-                            {headline.headlinethree_two}
+                            {t('Featuresection.headlinethree_one')}<br/>
+                            {t('Featuresection.headlinethree_two')}
                         </Headline>
                         ))}
                     <Mobilemockupimg src={featureimagemobile3} alt="mobilemockupimg" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
                     {Featuretextthree.map((featuretext , index) =>(
                     <Featuretext key= {index}>
-                        {featuretext.featuretextthree_one}<br/>
-                        {featuretext.featuretextthree_two}<br/>
-                        {featuretext.featuretextthree_three}
+                        {t('Featuresection.featuretextthree_one')}<br/>
+                        {t('Featuresection.featuretextthree_two')}<br/>
+                        {t('Featuresection.featuretextthree_three')}
                     </Featuretext>
                          ))}
                 </Featuredivmobile>

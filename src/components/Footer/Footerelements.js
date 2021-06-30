@@ -5,6 +5,7 @@ export const Footersection = styled.section`
    background:#FAFAFA;
    width:100%;
    height:auto;
+   padding-bottom:5%;
 
    @media (max-width: 480px) {
       background: #222426;
@@ -240,8 +241,24 @@ export const Supporttextmobilewrap = styled.div`
          margin-top:10%;
          margin-left:40px;
       }
+      :lang(en) { display: none; }
 
 `
+
+export const Ensupporttextmobilewrap = styled.div`
+      display:none;
+      @media (max-width: 480px) {
+         display:block;
+         width:auto;
+         height:auto;
+         margin-top:10%;
+         margin-left:40px;
+      }
+   :lang(ko) { display: none; }
+
+`
+
+
 export const Supporttext = styled.h4`
    font-style: normal;
    font-weight: 500;
@@ -333,6 +350,21 @@ export const Supporttext = styled.h4`
       color: #4F5665;
       
       }
- 
+      :lang(en) { display: none; }
        `
+
+       export const Enstext = styled.h3`
+       width:100%;
+       justify-content: center;
+       font-style: normal;
+       font-weight: 500;
+       font-size: 16px;
+       /* or 27px */
+   
+       letter-spacing: -0.02em;
+       color: #4F5665;
+       
+       }
+       :lang(ko) { display: none; }
+        `
 

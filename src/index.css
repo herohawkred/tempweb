@@ -3,7 +3,6 @@
 
 body {
   margin: 0;
-  font-family: 'Noto Sans KR';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-box-sizing: border-box;
@@ -11,6 +10,10 @@ body {
   box-sizing: border-box;
   width:100%;
 };
+
+:lang(en-US) {
+  font-family:'roboto';
+}
 
 
 code {

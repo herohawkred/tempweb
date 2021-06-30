@@ -4,9 +4,11 @@ import NotoSansKR from './fonts/noto-sans-kr-v13-latin-regular.woff'
 const FontStyles = createGlobalStyle`
 
 @font-face {
-  font-family: 'NoTosansKR';
-  src: local('NoTosansKR'),
-  url(${NotoSansKR}) format('woff');
   
+  src: local('NoTosansKR'),
+ 
+  html:lang(en-US) font-family{
+    roboto;
+}
 `;
 export default FontStyles;

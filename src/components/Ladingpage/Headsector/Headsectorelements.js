@@ -7,6 +7,7 @@ export const Container = styled.div`
     flex-direction: column;
     background-color:#F5F5F5;
     height:100%;
+    flex: 0 0 auto;
         @media (max-width: 480px) {
             width:100%;
             height:auto;
@@ -81,6 +82,7 @@ export const Title = styled.h1`
         flex-grow: 0;
         font-size: 38px;
         font-weight: bold;
+        font-weight:800;
         font-stretch: normal;
         font-style: normal;
         line-height: 1.84;

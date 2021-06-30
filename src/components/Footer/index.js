@@ -1,5 +1,5 @@
 import React from 'react'
-import {Supporttexttwo,Stext,Supportextdivmobile,Ruletextdivmobile,Contentdivmobile,Companylogodivmobile,Supporttextmobiletwo,Supporttextmobileone,Supporttextmobilewrap,Ruleandlogomobile,FooterdivMobile,Footersection,Footerdiv,Contentdiv,Companylogodiv,CompanyLogo,Supportextdiv,Ruletextdiv,Supporttext} from './Footerelements'
+import {Ensupporttextmobilewrap,Enstext,Supporttexttwo,Stext,Supportextdivmobile,Ruletextdivmobile,Contentdivmobile,Companylogodivmobile,Supporttextmobiletwo,Supporttextmobileone,Supporttextmobilewrap,Ruleandlogomobile,FooterdivMobile,Footersection,Footerdiv,Contentdiv,Companylogodiv,CompanyLogo,Supportextdiv,Ruletextdiv,Supporttext} from './Footerelements'
 import Logoimg from '../../images/Landingpage/Companylogo.svg'
 import Logoimgwhite from '../../images/Landingpage/logo_white.png'
 import { useTranslation } from 'react-i18next';
@@ -30,8 +30,15 @@ export const Footer = ({Supportexts,Ruletexts,Ruletextstwo}) => {
                                     {t('Supportexts.address')} <br/>
                                     {t('Supportexts.linetwo')}
                                     </Stext>
-
                                 ))}
+
+                                    <Enstext>
+                                    {t('Supportexts.customercenter')}<br/>
+                                    {t('Supportexts.email')} <br/>
+                                    {t('Supportexts.companyname')} <br/>
+                                    {t('Supportexts.address')} <br/>
+
+                                    </Enstext>
                             </Supportextdiv>
                             <Ruletextdiv>
                                 <Supporttext >
@@ -65,9 +72,16 @@ export const Footer = ({Supportexts,Ruletexts,Ruletextstwo}) => {
                                     </Supporttextmobilewrap>
 
                                 ))}
+                                    <Ensupporttextmobilewrap>
+                                    {t('Supportexts.customercenter')}<br/>
+                                    {t('Supportexts.email')} <br/>
+                                    {t('Supportexts.companyname')} <br/>
+                                    {t('Supportexts.address')} <br/>
+                                    
+                                    </Ensupporttextmobilewrap>
+
+
                         </Supportextdivmobile>
-                           
-                        
                         <Ruleandlogomobile>
                                 <Ruletextdivmobile>
                                     <Supporttextmobileone>
