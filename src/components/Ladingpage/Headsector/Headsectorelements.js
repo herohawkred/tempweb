@@ -42,7 +42,7 @@ export const Linebreakerimgmobile = styled.img`
 export const Headersection = styled.div`
     display:grid;
     grid-template-columns: 1fr 1fr;
-    height:80%;
+    height:auto;
 
         @media (max-width: 480px) {
             display:flex;
