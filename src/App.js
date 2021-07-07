@@ -11,7 +11,7 @@ function App() {
 
 
   if (navigator.language === 'en-US'){
-      document.documentElement.style.fontFamily = 'roboto'
+      document.documentElement.style.fontFamily = 'arial'
   }
   else if(navigator.language === "ko"||"ko-KR")
   {
