@@ -13,11 +13,12 @@ function App() {
   {
     document.documentElement.style.fontFamily = 'Noto Sans KR'
   }
-  else if(navigator.lanauge ==='en-us'){
+  else if(navigator.language ==='en-us'){
     document.documentElement.style.fontFamily = 'roboto'
+  }
+  else if (navigator.language ==='ko-kr'){
+    document.documentElement.style.fontFamily = 'Noto Sans KR'
   };
-
-  ;
 
   document.documentElement.lang = navigator.language
   return  (
