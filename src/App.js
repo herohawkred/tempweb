@@ -6,19 +6,23 @@ import i18next from 'i18next';
 import NotoSansKR from './fonts/noto-sans-kr-v13-latin-regular.woff'
 
 function App() {
+
+
+
+
   if (navigator.language === 'en-US'){
       document.documentElement.style.fontFamily = 'roboto'
   }
   else if(navigator.language === "ko"||"ko-KR")
   {
     document.documentElement.style.fontFamily = 'Noto Sans KR'
-  }
-  else if(navigator.language ==='en-us'){
-    document.documentElement.style.fontFamily = 'sans'
-  }
-  else if (navigator.language ==='ko-kr'){
-    document.documentElement.style.fontFamily = 'Noto Sans KR'
   };
+  
+  const uA = navigator.userAgent;
+  const vendor = navigator.vendor;
+  if (/Safari/i.test(uA) && /Apple Computer/.test(vendor) && !/Mobi|Android/i.test(uA)) {
+    document.documentElement.style.fontFamily = 'Apple'
+  }
 
   document.documentElement.lang = navigator.language
   return  (
