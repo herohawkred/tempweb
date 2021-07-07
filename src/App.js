@@ -6,10 +6,10 @@ import i18next from 'i18next';
 import NotoSansKR from './fonts/noto-sans-kr-v13-latin-regular.woff'
 
 function App() {
-  if (navigator.language === 'en-US'){
+  if (navigator.language === 'en-US'||'en'){
       document.documentElement.style.fontFamily = 'roboto'
   }
-  else if(navigator.language === "ko")
+  else if(navigator.language === "ko"||"ko-KR")
   {
     document.documentElement.style.fontFamily = 'Noto Sans KR'
   }
