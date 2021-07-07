@@ -47,7 +47,6 @@ export const Headersection = styled.div`
             display:flex;
             flex-direction: column-reverse;
             height:100%;
-
         }
 
 `
@@ -56,8 +55,8 @@ export const Headersectiontextdiv = styled.div`
     flex-direction:column;   
     width:100%;
     height:100%;
-    padding-top:20%;
-    padding-bottom:20%;
+    margin-top:20%;
+    margin-bottom:20%;
 
         @media (max-width: 480px) {
             margin-bottom:80px;
@@ -225,7 +224,7 @@ export const Headersectionimgdiv = styled.div`
      };
 `
 
-    export const Headerimages = styled.img`
+export const Headerimages = styled.img`
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -237,17 +236,13 @@ export const Headersectionimgdiv = styled.div`
 `
 
 export const Maincircle = styled.img`
-    width:280px;
+    width:auto;
     height:auto;
     position: absolute;
     bottom: 0;
     padding-bottom: 10px;
     right: 0;
-    padding-bottom: -webkit- 20%;
-    ::i-block-chrome,.myClass {
-        padding-bottom: 20%;
-       }
-       }
+
 
     @media (max-width: 480px) {
        width:90px;

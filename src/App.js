@@ -21,7 +21,7 @@ function App() {
   const uA = navigator.userAgent;
   const vendor = navigator.vendor;
   if (/Safari/i.test(uA) && /Apple Computer/.test(vendor) && !/Mobi|Android/i.test(uA)) {
-    document.documentElement.style.fontFamily = 'Apple'
+    document.documentElement.style.fontFamily = 'arial'
   }
 
   document.documentElement.lang = navigator.language

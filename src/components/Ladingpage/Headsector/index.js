@@ -89,7 +89,7 @@ class Headsector extends React.Component {
                     <Headersectionimgdiv>
                             <Maincircle src ={Maincircleimage}/>
                             <BunnFitlogowhite src ={BunnFitlogo}/>
-                            <Headerimages src={this.state.selectedImage} alt={"none"}/>
+                            <Headerimages src={this.state.selectedImage}/>
                 </Headersectionimgdiv>
 
             </Headersection>
