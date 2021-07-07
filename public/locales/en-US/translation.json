@@ -23,7 +23,7 @@
     "two":"Beast inside you!"
 },
 "Featuresection":{
-    "titleone":"Record",
+    "titleone":"RECORD",
     "titletwo":"Timer",
     "titlethree":"YouTube",
     "headlineone":"Simple Planner",
@@ -33,8 +33,8 @@
     "headlinethree_two":"Workout At Home!",
     "featuretextone_one":"Start with planner",
     "featuretextone_two":"Simple & Easy workout planner",
-    "featuretextone_three":"Single click to duplicate your previous workout",
-    "featuretextone_four":"to make plan faster",
+    "featuretextone_three":"Single click to duplicate your",
+    "featuretextone_four":"previous workout to make plan faster",
 
     "featuretextone_mobilethree":"Copy & Paste your previous plan",
     "featuretextone_mobilefour":"To structure proper plan",
@@ -44,8 +44,8 @@
     "featuretexttwo_twomobile":"Mange your workout time",
     "featuretexttwo_threemobile":"With break & Workout timer",
     "featuretextthree_one":"Workout at home?",
-    "featuretextthree_two":"Choose your favorite videos from YouTube to",
-    "featuretextthree_three":"Follow and record your workout"
+    "featuretextthree_two":"Choose your favorite videos from YouTube",
+    "featuretextthree_three":"to follow and record your workout"
 
 },
 
@@ -61,7 +61,7 @@
 
 "Programsectiondata":{
 
-    "programtitleone":"Programs",
+    "programtitleone":"PROGRAMS",
     "diverse":"The Best",
     "workoutprogram":"Workout Programs!",
     "provide": "You can choose workout program you like", 
@@ -74,14 +74,14 @@
     
 "Userimages":{
 
-    "userimageTitle":"Share",
+    "userimageTitle":"SHARE",
     "yourrecord": "Share Your",
     "shareit":"Workout",
-    "together":"Keep your workout routine with others.",
-    "share":"Share your workout through Instagram and Check out other user workout plans too!",
-    "mobile1":" Keep your workout routine together",
+    "together":"Share your workout routines with friends.",
+    "share":"Share your workout through Instagram and check out what others do!",
+    "mobile1":"Share your workout routine together",
     "mobile2":"Share your workout through Instagram",
-    "mobile3":"Check out other user workout plans too!"
+    "mobile3":"Check out what others do!"
 }
 
 
