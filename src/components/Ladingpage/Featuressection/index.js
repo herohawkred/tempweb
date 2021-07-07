@@ -1,11 +1,17 @@
 import React, { useEffect } from "react";
 import {Featuredivmobile,Mobileinfosectioncontainer,Blankdiv,Mobileinfo,Mobilemockupimg,Title,Phonemockupdivright,Phonemockupdivleft,Mockuptextleft,Mockuptextright, Featuretext,Headline,Mobilemockupimgleft} from './Mobileinfoelements'
 import Featureimage1 from '../../../images/Landingpage/Featureimages/featureimage_1.png';
+import Featureimage1en from '../../../images/Landingpage/Featureimages/featureimage_1en.png';
 import Featureimage2 from '../../../images/Landingpage/Featureimages/featureimage_2.png';
+import Featureimage2en from '../../../images/Landingpage/Featureimages/featureimage_2en.png';
 import Featureimage3 from '../../../images/Landingpage/Featureimages/featureimage_3.png';
+import Featureimage3en from '../../../images/Landingpage/Featureimages/featureimage_3en.png';
 import featureimagemobile1 from '../../../images/Landingpage/Featureimages/featureimagemobile1.png';
+import featureimagemobile1en from '../../../images/Landingpage/Featureimages/featureimagemobile1en.png';
 import featureimagemobile2 from '../../../images/Landingpage/Featureimages/featureimagemobile2.png';
+import featureimagemobile2en from '../../../images/Landingpage/Featureimages/featureimagemobile2en.png';
 import featureimagemobile3 from '../../../images/Landingpage/Featureimages/featureimagemobile3.png';
+import featureimagemobile3en from '../../../images/Landingpage/Featureimages/featureimagemobile3en.png';
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import { useTranslation } from 'react-i18next';
@@ -18,11 +24,23 @@ export const Featuressection = ({Titleone,Titletwo,Titlethree,Headlineone,Headli
       }, []);
 const { t, i18n } = useTranslation();
 
-var image1;
+var image1,image2,image3,mobileimage1,mobileimage2,mobileimage3;
+
 if (document.documentElement.lang === 'ko'){
     image1 = Featureimage1
+    image2 = Featureimage2
+    image3 = Featureimage3
+    mobileimage1 = featureimagemobile1
+    mobileimage2 = featureimagemobile2
+    mobileimage3 = featureimagemobile3
+
 }else{
-    image1 = Featureimage2
+    image1 = Featureimage1en
+    image2 = Featureimage2en
+    image3 = Featureimage3en
+    mobileimage1 = featureimagemobile1en
+    mobileimage2 = featureimagemobile2en
+    mobileimage3 = featureimagemobile3en
 };
 
     return (
@@ -48,7 +66,7 @@ if (document.documentElement.lang === 'ko'){
                 </Phonemockupdivright>
 {/*나누기*/}
                 <Phonemockupdivleft >
-                    <Mobilemockupimgleft src={Featureimage2} alt="mobilemockupimg" data-aos="fade-right"/>
+                    <Mobilemockupimgleft src={image2} alt="mobilemockupimg" data-aos="fade-right"/>
                 </Phonemockupdivleft>
                 <Mockuptextright >
                     <Title >{t('Featuresection.titletwo')}</Title>
@@ -88,14 +106,14 @@ if (document.documentElement.lang === 'ko'){
                          ))}
                 </Mockuptextleft>
                 <Phonemockupdivright >
-                    <Mobilemockupimg src={Featureimage3} alt="mobilemockupimg" data-aos="fade-left"/>
+                    <Mobilemockupimg src={image3} alt="mobilemockupimg" data-aos="fade-left"/>
                 </Phonemockupdivright>
 
 {/*모바일버전   */}
                 <Featuredivmobile >
                     <Title >{t('Featuresection.titleone')}</Title>
                     <Headline >{t('Featuresection.headlineone')} </Headline>
-                    <Mobilemockupimg src={featureimagemobile1} alt="mobilemockupimg" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
+                    <Mobilemockupimg src={mobileimage1} alt="mobilemockupimg" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
                     
                         {Featuretextone.map((featuretext , index) =>(
                     <Featuretext key= {index}>
@@ -117,7 +135,7 @@ if (document.documentElement.lang === 'ko'){
                          {t('Featuresection.headlinetwo_two')}
                     </Headline>
                          ))}
-                    <Mobilemockupimg src={featureimagemobile2} alt="mobilemockupimg" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
+                    <Mobilemockupimg src={mobileimage2} alt="mobilemockupimg" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
                     {Featuretexttwo.map((index) =>(
                     <Featuretext key= {index}>
                         {t('Featuresection.featuretexttwo_one')}<br/>
@@ -134,7 +152,7 @@ if (document.documentElement.lang === 'ko'){
                             {t('Featuresection.headlinethree_two')}
                         </Headline>
                         ))}
-                    <Mobilemockupimg src={featureimagemobile3} alt="mobilemockupimg" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
+                    <Mobilemockupimg src={mobileimage3} alt="mobilemockupimg" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
                     {Featuretextthree.map((featuretext , index) =>(
                     <Featuretext key= {index}>
                         {t('Featuresection.featuretextthree_one')}<br/>

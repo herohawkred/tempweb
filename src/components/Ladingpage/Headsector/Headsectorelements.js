@@ -12,6 +12,7 @@ export const Container = styled.div`
             width:100%;
             height:auto;
         };
+    -webkit-height:auto;
 `
 export const Linebreaker = styled.div`
     width:auto;
@@ -55,7 +56,7 @@ export const Headersectiontextdiv = styled.div`
     display:flex;
     flex-direction:column;   
     width:100%;
-    height:auto;
+    height:100%;
     padding-top:20%;
     padding-bottom:20%;
 

@@ -36,8 +36,6 @@ export const Footer = ({Supportexts,Ruletexts,Ruletextstwo}) => {
                                     {t('Supportexts.customercenter')}<br/>
                                     {t('Supportexts.email')} <br/>
                                     {t('Supportexts.companyname')} <br/>
-                                    {t('Supportexts.address')} <br/>
-
                                     </Enstext>
                             </Supportextdiv>
                             <Ruletextdiv>
