@@ -14,7 +14,7 @@ function App() {
     document.documentElement.style.fontFamily = 'Noto Sans KR'
   }
   else if(navigator.language ==='en-us'){
-    document.documentElement.style.fontFamily = 'roboto'
+    document.documentElement.style.fontFamily = 'sans'
   }
   else if (navigator.language ==='ko-kr'){
     document.documentElement.style.fontFamily = 'Noto Sans KR'
