@@ -3,45 +3,19 @@ import styled from 'styled-components'
 
 
 export const Container = styled.div`
-    display:flex;
-    flex-direction: column;
+    display:grid;
     background-color:#F5F5F5;
-    flex: 0 0 auto;
         @media (max-width: 480px) {
             width:100%;
             height:auto;
         };
     -webkit-height:auto;
 `
-export const Linebreaker = styled.div`
-    width:auto;
-    height:auto;
-    
-        @media (max-width: 480px) {
-            height:30px;
-            width:100%;
-        };
-
-`
-export const Linebreakerimg = styled.img`
-    object-fit: contain;
-        @media (max-width: 480px) {
-            display:none;
-        };
-`
-
-export const Linebreakerimgmobile = styled.img`
-    display:none;
-        @media (max-width: 480px) {
-            display:block;
-            height:30px;
-        };
-`
 
 export const Headersection = styled.div`
     display:grid;
     grid-template-columns: 1fr 1fr;
-    height:auto;
+    height:100%;
 
         @media (max-width: 480px) {
             display:flex;
