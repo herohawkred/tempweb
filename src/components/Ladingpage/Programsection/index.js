@@ -62,29 +62,29 @@ export const Programsector = ({Programtitleone, Programheadlineone, Textinfo }) 
 
                 </Programoneofone>
                 <Programoneoftwo>
-                    <Programimgone src={Programimageone} alt="Image1" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1000"/>
+                    <Programimgone src={Programimageone} alt={t('metatag.image2tag')} data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1000"/>
                 </Programoneoftwo>
 
 
                 <Programoneoftwomobile>
                     <Slider {...mobilesettings}>
-                        <Programimgone src={Programimageonemobile} alt="Image1" data-aos-duration="2000"/>
-                        <Programimgone src={Programimagetwomobile} alt="Image2" data-aos-duration="3000"/>
-                        <Programimgone src={Programimagethreemobile} alt="Image3" data-aos-duration="3000"/>
-                        <Programimgone src={Programimagefourmobile} alt="Image4" data-aos-duration="4000"/>
+                        <Programimgone src={Programimageonemobile} alt={t('metatag.image3tag')} data-aos-duration="2000"/>
+                        <Programimgone src={Programimagetwomobile} alt={t('metatag.image4tag')} data-aos-duration="3000"/>
+                        <Programimgone src={Programimagethreemobile} alt={t('metatag.image5tag')} data-aos-duration="3000"/>
+                        <Programimgone src={Programimagefourmobile} alt={t('metatag.image6tag')} data-aos-duration="4000"/>
                     </Slider>
                 </Programoneoftwomobile>
 
             </Programone>
             <Programtwo>
                 <Programoneofthree>
-                    <Programimgtwo src={Programimagetwo} alt="Image2" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1000"/>
+                    <Programimgtwo src={Programimagetwo} alt="Starting strength" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1000"/>
                 </Programoneofthree>
                 <Programoneofour>
-                    <Programimgthree src={Programimagethree} alt="Image3" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1000"/>
+                    <Programimgthree src={Programimagethree} alt="Madcow" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1000"/>
                 </Programoneofour>
                 <Programoneoffive>
-                    <Programimgfour src={Programimagefour} alt="Image4" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1000"/>
+                    <Programimgfour src={Programimagefour} alt="Pullup" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1000"/>
                 </Programoneoffive>         
             </Programtwo>
         </Programsectorcontainer>

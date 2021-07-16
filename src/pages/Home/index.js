@@ -17,6 +17,7 @@ import {Downloadsectiondata} from '../../components/Ladingpage/Downloadsection/D
 import Backgroundcircle from '../../components/Ladingpage/Backgroundcircle';
 import Fontstyles from '../../fontStyles';
 import { useTranslation } from 'react-i18next';
+import {Helmet} from "react-helmet";
 
 const Home = () => {
 
@@ -24,6 +25,23 @@ const Home = () => {
     return (
         <Fontstyles/>,
         <BrowserRouter>
+            <Helmet>
+        <meta charSet="utf-8" />
+        <title>{t('metatag.title')}</title>
+        <meta name="description" content={t('metatag.description')} />
+        <meta name="keywords" content={t('metatag.keywords')}/>
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="http://bunnfit.com/" />
+        <meta property="og:type" content="website" />
+
+        <meta property="og:title" content={t('metatag.ogtitle')} />
+        <meta property="og:description" content={t('metatag.ogdescription')} />
+        <meta property="og:url" content="https://www.bunn.fit" />
+        <meta property="og:site_name" content={t('metatag.ogsitename')} />
+
+
+
+            </Helmet>,
             <Firstlinebreaker/>            
             <Headsector {...Headsectordata}/>
             {/*<Navbar/>*/}

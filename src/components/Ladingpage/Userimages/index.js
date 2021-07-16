@@ -115,26 +115,26 @@ return (
     <Imagediv>
          <Userimagessection key={index} >
             <Slider {...settings} >
-                    <Userimagess src={Image1} alt="Image1"/>
-                    <Userimagess src={Image2} alt="Image2"/>
-                    <Userimagess src={Image3} alt="Image3"/>
-                    <Userimagess src={Image4} alt="Image4"/>
-                    <Userimagess src={Image5} alt="Image5"/>
-                    <Userimagess src={Image6} alt="Image6"/>
-                    <Userimagess src={Image7} alt="Image7"/>
-                    <Userimagess src={Image8} alt="Image8"/>
+                    <Userimagess src={Image1} alt={t('metatag.userimage')}/>
+                    <Userimagess src={Image2} alt={t('metatag.userimage')}/>
+                    <Userimagess src={Image3} alt={t('metatag.userimage')}/>
+                    <Userimagess src={Image4} alt={t('metatag.userimage')}/>
+                    <Userimagess src={Image5} alt={t('metatag.userimage')}/>
+                    <Userimagess src={Image6} alt={t('metatag.userimage')}/>
+                    <Userimagess src={Image7} alt={t('metatag.userimage')}/>
+                    <Userimagess src={Image8} alt={t('metatag.userimage')}/>
             </Slider>
         </Userimagessection>
         <UserimagessectionMobile >
             <Slider {...settings}>
-                    <Userimagessmobile key={11} src={ImageMobile1} alt="Image12"/>
-                    <Userimagessmobile key={12} src={ImageMobile2} alt="Image13"/>
-                    <Userimagessmobile key={13} src={ImageMobile3} alt="Image13"/>
-                    <Userimagessmobile key={14} src={ImageMobile4} alt="Image14"/>
-                    <Userimagessmobile key={15} src={ImageMobile5} alt="Image15"/>
-                    <Userimagessmobile key={16} src={ImageMobile6} alt="Image16"/>
-                    <Userimagessmobile key={17} src={ImageMobile7} alt="Image17"/>
-                    <Userimagessmobile key={18} src={ImageMobile8} alt="Image18"/>
+                    <Userimagessmobile key={11} src={ImageMobile1} alt={t('metatag.userimage')}/>
+                    <Userimagessmobile key={12} src={ImageMobile2} alt={t('metatag.userimage')}/>
+                    <Userimagessmobile key={13} src={ImageMobile3} alt={t('metatag.userimage')}/>
+                    <Userimagessmobile key={14} src={ImageMobile4} alt={t('metatag.userimage')}/>
+                    <Userimagessmobile key={15} src={ImageMobile5} alt={t('metatag.userimage')}/>
+                    <Userimagessmobile key={16} src={ImageMobile6} alt={t('metatag.userimage')}/>
+                    <Userimagessmobile key={17} src={ImageMobile7} alt={t('metatag.userimage')}/>
+                    <Userimagessmobile key={18} src={ImageMobile8} alt={t('metatag.userimage')}/>
             </Slider>
         </UserimagessectionMobile>
     </Imagediv>

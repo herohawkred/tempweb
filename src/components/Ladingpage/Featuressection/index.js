@@ -62,11 +62,11 @@ if (document.documentElement.lang === 'ko'){
 
                 </Mockuptextleft>
                 <Phonemockupdivright >
-                    <Mobilemockupimg src={image1} alt="mobilemockupimg" data-aos="fade-left" data-aos-duration="2000"/>
+                    <Mobilemockupimg src={image1} alt="Workout planner" data-aos="fade-left" data-aos-duration="2000"/>
                 </Phonemockupdivright>
 {/*나누기*/}
                 <Phonemockupdivleft >
-                    <Mobilemockupimgleft src={image2} alt="mobilemockupimg" data-aos="fade-right"/>
+                    <Mobilemockupimgleft src={image2} alt="Tracking workout" data-aos="fade-right"/>
                 </Phonemockupdivleft>
                 <Mockuptextright >
                     <Title >{t('Featuresection.titletwo')}</Title>
@@ -106,14 +106,14 @@ if (document.documentElement.lang === 'ko'){
                          ))}
                 </Mockuptextleft>
                 <Phonemockupdivright >
-                    <Mobilemockupimg src={image3} alt="mobilemockupimg" data-aos="fade-left"/>
+                    <Mobilemockupimg src={image3} alt="Home workout" data-aos="fade-left"/>
                 </Phonemockupdivright>
 
 {/*모바일버전   */}
                 <Featuredivmobile >
                     <Title >{t('Featuresection.titleone')}</Title>
                     <Headline >{t('Featuresection.headlineone')} </Headline>
-                    <Mobilemockupimg src={mobileimage1} alt="mobilemockupimg" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
+                    <Mobilemockupimg src={mobileimage1} alt="Workout planner" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
                     
                         {Featuretextone.map((featuretext , index) =>(
                     <Featuretext key= {index}>
@@ -135,7 +135,7 @@ if (document.documentElement.lang === 'ko'){
                          {t('Featuresection.headlinetwo_two')}
                     </Headline>
                          ))}
-                    <Mobilemockupimg src={mobileimage2} alt="mobilemockupimg" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
+                    <Mobilemockupimg src={mobileimage2} alt="Tracking workout" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
                     {Featuretexttwo.map((index) =>(
                     <Featuretext key= {index}>
                         {t('Featuresection.featuretexttwo_one')}<br/>
@@ -152,7 +152,7 @@ if (document.documentElement.lang === 'ko'){
                             {t('Featuresection.headlinethree_two')}
                         </Headline>
                         ))}
-                    <Mobilemockupimg src={mobileimage3} alt="mobilemockupimg" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
+                    <Mobilemockupimg src={mobileimage3} alt="Home workout" data-aos="fade-up"data-aos-easing="linear" data-aos-duration="700"/>
                     {Featuretextthree.map((featuretext , index) =>(
                     <Featuretext key= {index}>
                         {t('Featuresection.featuretextthree_one')}<br/>
