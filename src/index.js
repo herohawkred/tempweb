@@ -9,7 +9,7 @@ import i18n from 'i18next';
 ReactDOM.render(
   
   <BrowserRouter>
-  <Suspense fallback={<h1>Loading profile...</h1>}>
+  <Suspense fallback={<h1>Loading Bunn.Fit</h1>}>
     <App />
   </Suspense>
   </BrowserRouter>,
