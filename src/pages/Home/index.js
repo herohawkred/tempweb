@@ -32,14 +32,11 @@ const Home = () => {
         <meta name="keywords" content={t('metatag.keywords')}/>
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="http://bunnfit.com/" />
-        <meta property="og:type" content="website" />
-
-        <meta property="og:title" content={t('metatag.ogtitle')} />
-        <meta property="og:description" content={t('metatag.ogdescription')} />
-        <meta property="og:url" content="https://www.bunn.fit" />
-        <meta property="og:site_name" content={t('metatag.ogsitename')} />
-
-
+        <meta name="og:type" content="website" />
+        <meta name="og:title" content={t('metatag.ogtitle')} />
+        <meta name="og:description" content={t('metatag.ogdescription')} />
+        <meta name="og:url" content="https://www.bunn.fit" />
+        <meta name="og:site_name" content={t('metatag.ogsitename')} />
 
             </Helmet>,
             <Firstlinebreaker/>            
