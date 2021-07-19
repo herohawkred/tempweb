@@ -26,7 +26,7 @@ const { t, i18n } = useTranslation();
 
 var image1,image2,image3,mobileimage1,mobileimage2,mobileimage3;
 
-if (document.documentElement.lang === 'ko'){
+if (document.documentElement.lang === 'ko' || 'kr'){
     image1 = Featureimage1
     image2 = Featureimage2
     image3 = Featureimage3
