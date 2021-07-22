@@ -19,6 +19,9 @@ import Fontstyles from '../../fontStyles';
 import { useTranslation } from 'react-i18next';
 import {Helmet} from "react-helmet";
 
+
+var Metatagtitle
+
 const Home = () => {
 
     const { t, i18n } = useTranslation();
@@ -37,8 +40,8 @@ const Home = () => {
         <meta property="og:description" content={t('metatag.ogdescription')} />
         <meta property="og:url" content="https://www.bunn.fit" />
         <meta property="og:site_name" content={t('metatag.ogsitename')} />
-
-            </Helmet>,
+og:description
+            </Helmet>
             <Firstlinebreaker/>            
             <Headsector {...Headsectordata}/>
             {/*<Navbar/>*/}

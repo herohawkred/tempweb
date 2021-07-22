@@ -26,21 +26,21 @@ const { t, i18n } = useTranslation();
 
 var image1,image2,image3,mobileimage1,mobileimage2,mobileimage3;
 
-if (document.documentElement.lang === 'ko' || 'kr'){
-    image1 = Featureimage1
-    image2 = Featureimage2
-    image3 = Featureimage3
-    mobileimage1 = featureimagemobile1
-    mobileimage2 = featureimagemobile2
-    mobileimage3 = featureimagemobile3
-
-}else{
+if (navigator.language === 'en' ){
     image1 = Featureimage1en
     image2 = Featureimage2en
     image3 = Featureimage3en
     mobileimage1 = featureimagemobile1en
     mobileimage2 = featureimagemobile2en
     mobileimage3 = featureimagemobile3en
+
+}else if(navigator.language === "ko"){
+    image1 = Featureimage1
+    image2 = Featureimage2
+    image3 = Featureimage3
+    mobileimage1 = featureimagemobile1
+    mobileimage2 = featureimagemobile2
+    mobileimage3 = featureimagemobile3
 };
 
     return (

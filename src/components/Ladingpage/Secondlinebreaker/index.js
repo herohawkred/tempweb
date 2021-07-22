@@ -8,6 +8,7 @@ export const Secondlinebreaker = () => {
         <Linebreaker>
             <Marquee gradient={false}>
                 <Secondbreakerimg src={Secondlineb} alt="secondlinebreaker"/>
+                <br></br>
                 <Secondbreakerimg src={Secondlineb} alt="secondlinebreaker"/>
             </Marquee>
         </Linebreaker>
