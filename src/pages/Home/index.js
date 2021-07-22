@@ -41,7 +41,7 @@ const Home = () => {
         <meta property="og:url" content="https://www.bunn.fit" />
         <meta property="og:site_name" content={t('metatag.ogsitename')} />
 og:description
-            </Helmet>
+            </Helmet>,
             <Firstlinebreaker/>            
             <Headsector {...Headsectordata}/>
             {/*<Navbar/>*/}
