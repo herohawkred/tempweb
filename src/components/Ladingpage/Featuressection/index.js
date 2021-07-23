@@ -41,7 +41,16 @@ if (navigator.language === 'en' ){
     mobileimage1 = featureimagemobile1
     mobileimage2 = featureimagemobile2
     mobileimage3 = featureimagemobile3
-};
+}else {
+    image1 = Featureimage1en
+    image2 = Featureimage2en
+    image3 = Featureimage3en
+    mobileimage1 = featureimagemobile1en
+    mobileimage2 = featureimagemobile2en
+    mobileimage3 = featureimagemobile3en
+}
+
+;
 
     return (
         <Mobileinfosectioncontainer >
