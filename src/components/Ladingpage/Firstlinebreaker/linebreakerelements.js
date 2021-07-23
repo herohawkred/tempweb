@@ -23,6 +23,7 @@ export const Linebreaker = styled.div`
         @media (max-width: 480px) {
             height:30px;
             width:100%;
+            display:none;
         };
 
 `
