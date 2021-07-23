@@ -30,7 +30,7 @@ export const Downloadsection = ({DownloadTitle_mobile,DownloadTitle,DownloadSubt
             </Downloadtextdiv>
             <Downalodbannerdiv key="bannertext">
                 <Appstorediv key="appstore" >
-                <a href={window.location} target="_blank"><Appstoreimg src={Appstorebanner} alt="Appstorebanner" /></a>
+                <a href="https://apps.apple.com/us/app/bunn-fit-workout-log/id1503464984" target="_blank"><Appstoreimg src={Appstorebanner} alt="Appstorebanner" /></a>
                 </Appstorediv>
                 <Googlestorediv key="Googleplay">
                     <a href="https://play.google.com/store/apps/details?id=com.bunnit.haja.android" target="_blank"><Googleplayimg src={Googleplaybanner} alt="Googleplaybanner"/></a>
