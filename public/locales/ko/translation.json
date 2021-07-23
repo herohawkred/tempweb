@@ -51,16 +51,37 @@
         "featuretextone_two":"누구나 쉽게 만드는 운동일지!",
         "featuretextone_three":"한번 만들어두면 복사, 붙여넣기로 체계적인",
         "featuretextone_four":"운동루틴을 만들 수 있어요",
+        "featuretextone_five":"",
+        "featuretextone_six":"",
+
         "featuretextone_mobilethree":"한번 만들어두면 복사, 붙여널기로",
         "featuretextone_mobilefour":"체계적인 운동루틴을 만들 수 있어요",
+        "featuretextone_mobilefive":"",
+        "featuretextone_mobilesix":"",
+
+
         "featuretexttwo_one":"헬스장에 오래있다고 잘하고 있는건 아니에요.",
         "featuretexttwo_two":"휴식타이머와 운동타이머로 효율적으로 운동하고",
         "featuretexttwo_three":"스마트하게 운동하세요",
+        "featuretexttwo_four":"",
+        "featuretexttwo_five":"",
+        "featuretexttwo_six":"",
+
+
         "featuretexttwo_twomobile":"효율적인 운동을 휴식타이머와",
         "featuretexttwo_threemobile":"운동 타이머로 스마트하게 관리하세요.",
+        "featuretexttwo_fourmobile":"",
+        "featuretexttwo_fivemobile":"",
+        "featuretexttwo_sixmobile":"",
+
+
+
         "featuretextthree_one":"오늘은 홈트레이닝 인가요?",
         "featuretextthree_two":"유튜브에서 내가 원하는 홈 트레이닝 운동을",
-        "featuretextthree_three":"골라 함께 따라하고 기록하세요!"
+        "featuretextthree_three":"골라 함께 따라하고 기록하세요!",
+        "featuretextthree_four":"",
+        "featuretextthree_five":"",
+        "featuretextthree_six":""
     
     },
 
@@ -84,7 +105,8 @@
         "mobileone":"어떤 루틴과 프로그램이 좋을지",
         "mobiletwo":"시간낭비 하지 마세요",
         "mobilethree":"번핏이 당신의 몸 상태에 맞춰 프로그램 기반으로",
-        "mobilefour":"효율적인 운동일지를 만들어 드릴게요!"
+        "mobilefour":"효율적인 운동일지를 만들어 드릴게요!",
+        "mobilefive":""
     },
     
     "Userimages":{

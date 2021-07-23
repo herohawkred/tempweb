@@ -56,7 +56,8 @@ export const Programsector = ({Programtitleone, Programheadlineone, Textinfo }) 
                     {t('Programsectiondata.mobileone')}<br/>
                     {t('Programsectiondata.mobiletwo')}<br/>
                     {t('Programsectiondata.mobilethree')}<br/>
-                    {t('Programsectiondata.mobilefour')}
+                    {t('Programsectiondata.mobilefour')}<br/>
+                    {t('Programsectiondata.mobilefive')}<br/>
                     </Programtext>
                         ))}
 

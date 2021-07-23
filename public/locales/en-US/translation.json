@@ -39,62 +39,83 @@
     "two":"BEAST INSIDE YOU"
 },
 "Featuresection":{
-    "titleone":"RECORD",
-    "titletwo":"Timer",
-    "titlethree":"YouTube",
-    "headlineone":"Simple Planner",
-    "headlinetwo_one":"Timer for",
-    "headlinetwo_two":"Better Workout",
-    "headlinethree_one":"Don't Miss",
-    "headlinethree_two":"Workout At Home!",
-    "featuretextone_one":"Start with planner",
-    "featuretextone_two":"Simple & Easy workout planner",
-    "featuretextone_three":"Single click to duplicate your",
-    "featuretextone_four":"previous workout to make plan faster",
+    "titleone":"PLAN",
+    "titletwo":"TIME",
+    "titlethree":"WATCH",
+    "headlineone":"Intuitive Planner",
+    "headlinetwo_one":"Rest & Workout Timers",
+    "headlinetwo_two":"",
+    "headlinethree_one":"YouTube Workout",
+    "headlinethree_two":"",
+    "featuretextone_one":"Tired of planning?",
+    "featuretextone_two":"",
+    "featuretextone_three":"Bunn.Fit was designed so you can",
+    "featuretextone_four":"focus on what's important.",
+    "featuretextone_five":"Getting your GAINS. Create your",
+    "featuretextone_six":"routine or simply copy & paste.",
 
-    "featuretextone_mobilethree":"Copy & Paste your previous plan",
-    "featuretextone_mobilefour":"To structure proper plan",
-    "featuretexttwo_one":"Stop wasting your time at the gym",
-    "featuretexttwo_two":"Use timer to manage your workout time",
-    "featuretexttwo_three":"More smarter",
-    "featuretexttwo_twomobile":"Manage your workout time",
-    "featuretexttwo_threemobile":"With break & Workout timer",
-    "featuretextthree_one":"Workout at home?",
-    "featuretextthree_two":"Choose your favorite videos from YouTube",
-    "featuretextthree_three":"to follow and record your workout"
+    "featuretextone_mobilethree":"Bunn.Fit was designed so you can",
+    "featuretextone_mobilefour":"focus on what's important.",
+    "featuretextone_mobilefive":"Getting your GAINS. Create your",
+    "featuretextone_mobilesix":"routine or simply copy & paste.",
+
+
+
+    "featuretexttwo_one":"Intervals between exercises have been ",
+    "featuretexttwo_two":"proven to enhance workouts.",
+    "featuretexttwo_three":"",
+    "featuretexttwo_four":"Bunn.Fit not only tracks your overall time,",
+    "featuretexttwo_five":"but includes a rest timer to help you",
+    "featuretexttwo_six":"prepare for that next big lift.",
+
+    "featuretexttwo_twomobile":"proven to enhance workouts.",
+    "featuretexttwo_threemobile":"",
+    "featuretexttwo_fourmobile":"Bunn.Fit not only tracks your overall time,",
+    "featuretexttwo_fivemobile":"but includes a rest timer to help you",
+    "featuretexttwo_sixmobile":"prepare for that next big lift.",
+
+
+    "featuretextthree_one":"Follow any fitness YouTuber?",
+    "featuretextthree_two":"",
+    "featuretextthree_three":"Bunn.Fit allows you to choose",
+    "featuretextthree_four":"your favorite workout videos ",
+    "featuretextthree_five":"from YouTube and record your ",
+    "featuretextthree_six":"workout."
 
 },
 
 "Headsectordata":{
 
-    "titlej":"SMASH YOUR LIMITS!",
-    "subtext_one":"Track better, Train better",
-    "subtext_two":"Plan your workout with Bunn.Fit",
-    "subofsubtext":"Let's get stronger!",
+    "titlej":"SMASH YOUR LIMITS",
+    "subtext_one":"Track Better, Train Smarter.",
+    "subtext_two":"Nothing beats a good routine.",
+    "subofsubtext":"Begin your journey here.",
     "buttontext":"Download App"
 
 },
 
 "Programsectiondata":{
 
-    "programtitleone":"PROGRAMS",
-    "diverse":"The Best",
-    "workoutprogram":"Workout Programs!",
+    "programtitleone":"TRAIN",
+    "diverse":"Specialized",
+    "workoutprogram":"Training Programs",
     "provide": "You can choose workout program you like", 
     "create":"We create best workout plan suit for you!",
-    "mobileone":"Don't waste your time on searching",
-    "mobiletwo":"For the workout programs.",
-    "mobilethree":"Bunn.Fit create workout plan based on",
-    "mobilefour":"The best programs suit for you!"
+    
+    "mobileone":"Trouble setting routines?",
+    "mobiletwo":"",
+    "mobilethree":"Bunn.Fit offers trusted training ",
+    "mobilefour":"programs for various fitness goals and",
+    "mobilefive":"ability levels to meet your needs."
 },
     
 "Userimages":{
 
     "userimageTitle":"SHARE",
     "yourrecord": "Share Your",
-    "shareit":"Workout",
-    "together":"Share your workout routines with friends.",
-    "share":"Share your workout through Instagram and check out what others do!",
+    "shareit":"Fitness Journey",
+    "together":"Humble brag your progress on social media! You deserve it!",
+    "share":"#bunn.fit to connect with other Bunnfiters.",
     "mobile1":"Share your workout routine together",
     "mobile2":"Share your workout through Instagram",
     "mobile3":"Check out what others do!"

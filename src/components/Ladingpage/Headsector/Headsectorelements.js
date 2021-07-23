@@ -63,6 +63,14 @@ export const Title = styled.h1`
         text-align: center;
         color: #0b132a;
 
+
+
+        :lang(en) {
+            font-size:68px;
+            font-weight:900;
+            font-style: italic;
+        }
+
         @media (max-width: 480px) {
             font-style: normal;
             font-size: 28px;
@@ -73,6 +81,13 @@ export const Title = styled.h1`
             letter-spacing: normal;
             text-align: center;
             color: #0b132a;
+            :lang(en) {
+                font-size:28px;
+                font-weight:900;
+                font-style: italic;
+            }
+
+
         };
 `
 

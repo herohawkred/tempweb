@@ -65,7 +65,9 @@ if (navigator.language === 'en' ){
                         {t('Featuresection.featuretextone_one')}<br/>
                         {t('Featuresection.featuretextone_two')}<br/>
                         {t('Featuresection.featuretextone_three')}<br/>
-                        {t('Featuresection.featuretextone_four')}
+                        {t('Featuresection.featuretextone_four')}<br/>
+                        {t('Featuresection.featuretextone_five')}<br/>
+                        {t('Featuresection.featuretextone_six')}<br/>
                     </Featuretext>
                          ))}
 
@@ -92,6 +94,8 @@ if (navigator.language === 'en' ){
                         {t('Featuresection.featuretexttwo_one')}<br/>
                         {t('Featuresection.featuretexttwo_two')}<br/>
                         {t('Featuresection.featuretexttwo_three')}<br/>
+                        {t('Featuresection.featuretexttwo_four')}<br/>
+                        {t('Featuresection.featuretexttwo_five')}<br/>
                     </Featuretext>
                          ))}
                 </Mockuptextright>
@@ -110,7 +114,10 @@ if (navigator.language === 'en' ){
                     <Featuretext key= {index}>
                         {t('Featuresection.featuretextthree_one')}<br/>
                         {t('Featuresection.featuretextthree_two')}<br/>
-                        {t('Featuresection.featuretextthree_three')}
+                        {t('Featuresection.featuretextthree_three')}<br/>
+                        {t('Featuresection.featuretextthree_four')}<br/>
+                        {t('Featuresection.featuretextthree_five')}<br/>
+                        {t('Featuresection.featuretextthree_six')}<br/>
                     </Featuretext>
                          ))}
                 </Mockuptextleft>
@@ -129,7 +136,9 @@ if (navigator.language === 'en' ){
                         {t('Featuresection.featuretextone_one')}<br/>
                         {t('Featuresection.featuretextone_two')}<br/>
                         {t('Featuresection.featuretextone_mobilethree')}<br/>
-                        {t('Featuresection.featuretextone_mobilefour')}
+                        {t('Featuresection.featuretextone_mobilefour')}<br/>
+                        {t('Featuresection.featuretextone_mobilefive')}<br/>
+                        {t('Featuresection.featuretextone_mobilesix')}
                     </Featuretext>
                          ))}
                     
@@ -149,7 +158,10 @@ if (navigator.language === 'en' ){
                     <Featuretext key= {index}>
                         {t('Featuresection.featuretexttwo_one')}<br/>
                         {t('Featuresection.featuretexttwo_twomobile')}<br/>
-                        {t('Featuresection.featuretexttwo_threemobile')}
+                        {t('Featuresection.featuretexttwo_threemobile')}<br/>
+                        {t('Featuresection.featuretexttwo_fourmobile')}<br/>
+                        {t('Featuresection.featuretexttwo_fivemobile')}<br/>
+                        {t('Featuresection.featuretexttwo_sixmobile')}<br/>
                     </Featuretext>
                          ))}
                 </Featuredivmobile>
@@ -166,7 +178,10 @@ if (navigator.language === 'en' ){
                     <Featuretext key= {index}>
                         {t('Featuresection.featuretextthree_one')}<br/>
                         {t('Featuresection.featuretextthree_two')}<br/>
-                        {t('Featuresection.featuretextthree_three')}
+                        {t('Featuresection.featuretextthree_three')}<br/>
+                        {t('Featuresection.featuretextthree_four')}<br/>
+                        {t('Featuresection.featuretextthree_five')}<br/>
+                        {t('Featuresection.featuretextthree_six')}
                     </Featuretext>
                          ))}
                 </Featuredivmobile>
