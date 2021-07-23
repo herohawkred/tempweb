@@ -16,7 +16,7 @@ import AOS from "aos";
 import 'aos/dist/aos.css';
 import { useTranslation } from 'react-i18next';
 
-export const Featuressection = ({Titleone,Titletwo,Titlethree,Headlineone,Headlinetwo,Headlinethree,Featuretextone,Featuretexttwo,Featuretextthree,index}) => {
+export const Featuressection = ({Mobilemockupimgsafa,Titleone,Titletwo,Titlethree,Headlineone,Headlinetwo,Headlinethree,Featuretextone,Featuretexttwo,Featuretextthree,index}) => {
     useEffect(() => {
         AOS.init({
           duration : 2000,

@@ -134,6 +134,28 @@ export const Mobilemockupimg = styled.img`
         }
     `
 
+    export const Mobilemockupimgsafa = styled.object`
+    height:552px;
+    width:269.35px;
+    margin:0;
+    top:0;
+    bottom:0;
+    padding:0;
+    margin-left:73px;
+
+    @media (max-width: 480px) {
+        margin-right:auto;
+        margin-left:auto;
+        padding-left:15px;
+    };
+
+    html:lang(ko){
+        maring-right:100px;
+        }
+    `
+
+
+
 export const Mobilemockupimgleft = styled.img`
     height:552px;
     width:269.35px;
