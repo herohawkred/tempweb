@@ -224,7 +224,9 @@ export const Featuretext = styled.h3`
         margin-top:0;
         text-align:center;
         width:100%;
-
+        :lang(ko) {
+           margin-bottom:0;
+        }
         
     }
 `

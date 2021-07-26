@@ -96,6 +96,7 @@ if (navigator.language === 'en' ){
                         {t('Featuresection.featuretexttwo_three')}<br/>
                         {t('Featuresection.featuretexttwo_four')}<br/>
                         {t('Featuresection.featuretexttwo_five')}<br/>
+                        {t('Featuresection.featuretexttwo_six')}
                     </Featuretext>
                          ))}
                 </Mockuptextright>
